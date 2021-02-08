@@ -14,12 +14,17 @@ Usage
 -----
 
 1. In the video node add the following attributes:
-   - class="optimize-video"
-   - poster="poster source" (image displayed on mobile)
-   - data-src="video source"
-   - data-type="video type"
+
+    | Attribute Name | Attribute Content | Description               | Required            |
+    |----------------|-------------------|---------------------------|---------------------|
+    | class          | "optimize-video"  | video identifier          | :heavy_check_mark:  |
+    | data-src       | "https://..."     | video source              | :heavy_check_mark:  |
+    | data-type      | "video/mp4"       | video type                | :heavy_check_mark:  |
+    | poster         | "https://..."     | image displayed on mobile |                     |
+   
 2. Import the js library at the end of the body node:
-   - `<script src="https://cdn.jsdelivr.net/gh/ariel-mn/js-vido@1.0.0/js-vido.js" integrity="sha256-aLD7G9V/25SfpmWNWLbcGblvtThOEb21GpDUKuHXqD8=" crossorigin="anonymous"></script>`
+
+   `<script src="https://cdn.jsdelivr.net/gh/ariel-mn/js-vido@1.0.0/js-vido.js" integrity="sha256-aLD7G9V/25SfpmWNWLbcGblvtThOEb21GpDUKuHXqD8=" crossorigin="anonymous"></script>`
 
 Example
 -------
