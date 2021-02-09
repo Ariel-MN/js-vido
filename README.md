@@ -22,9 +22,13 @@ One of the cases where this functionality can be useful is verified with auto-pl
     | data-type      | "video/mp4"       | video type                | :heavy_check_mark:  |
     | poster         | "https://..."     | image displayed on mobile |                     |
    
-2. Import the js library at the end of the body node:
+2. Import the js library at the end of the body node in one of the following ways:
 
+   Using Subresource Integrity (SRI) <br>
    `<script src="https://cdn.jsdelivr.net/gh/ariel-mn/js-vido@1.0.0/js-vido.js" integrity="sha256-aLD7G9V/25SfpmWNWLbcGblvtThOEb21GpDUKuHXqD8=" crossorigin="anonymous"></script>`
+
+   Or to always use the latest version <br>
+   `<script src="https://cdn.jsdelivr.net/gh/ariel-mn/js-vido@latest/js-vido.js"></script>`
 
 :dizzy: Example
 ---------------
